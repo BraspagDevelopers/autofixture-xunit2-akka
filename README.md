@@ -11,9 +11,9 @@ PM> Braspag.Autofixture.Xunit2.Akka
 After that, you need to add the **ActorSpecimenBuilder** to your AutoDataAttribute:
 
 ``` csharp
-public class AutoApiDataAttribute : AutoDataAttribute
+public class AutoActorDataAttribute : AutoDataAttribute
 {
-    public AutoApiDataAttribute() : this(new Fixture())
+    public AutoActorDataAttribute() : this(new Fixture())
     {
     }
 
@@ -27,7 +27,7 @@ public class AutoApiDataAttribute : AutoDataAttribute
 And finally, in your tests, you should add your actor as parameter using the generic type **TestActorRefWrapper<T>** where T must inhereit from ActorBase:
 
 ``` csharp
-[Theory, AutoNSubstituteData]
+[Theory, AutoActorDataAttribute]
 public void ProcessBatches_WhenBatchesExistsInDb_ShouldSendMessageToProcessTransactionCoordinator(TestActorRefWrapper<MyActorClass> sut)
 {
 	// Your test
