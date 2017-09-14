@@ -4,7 +4,7 @@
     <id>$id$</id>
     <version>$version$</version>
     <description>$description$</description>
-    <authors>$authors$</authors>
+    <authors>Braspag</authors>
     <projectUrl>https://github.com/BraspagDevelopers/fluent-query-builder</projectUrl>
     <iconUrl>http://www.braspag.com.br/wp-content/uploads/2016/03/logo-braspag.png</iconUrl>
     <releaseNotes>Initial relase with the SpecimenBuilder to allow autofixture to create actors.</releaseNotes>
