@@ -48,9 +48,11 @@ namespace Autofixture.Xunit2.Akka
 
         protected bool IsGenericTypeOf(Type genericType, Type someType)
         {
-            if (someType.IsGenericType && genericType == someType.GetGenericTypeDefinition()) return true;
+            var typeInfo = someType.GetTypeInfo();
 
-            return someType.BaseType != null && IsGenericTypeOf(genericType, someType.BaseType);
+            if (typeInfo.IsGenericType && genericType == someType.GetGenericTypeDefinition()) return true;
+
+            return typeInfo.BaseType != null && IsGenericTypeOf(genericType, typeInfo.BaseType);
         }
     }
 }
