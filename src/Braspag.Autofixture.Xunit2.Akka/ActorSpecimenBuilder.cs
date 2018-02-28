@@ -1,8 +1,8 @@
 ﻿using Akka.Actor;
 using Akka.TestKit.Xunit2;
-using Ploeh.AutoFixture.Kernel;
 using System;
 using System.Reflection;
+using AutoFixture.Kernel;
 
 namespace Autofixture.Xunit2.Akka
 {

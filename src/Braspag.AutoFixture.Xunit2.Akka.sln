@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Braspag.Autofixture.Xunit2.Akka", "Braspag.Autofixture.Xunit2.Akka\Braspag.Autofixture.Xunit2.Akka.csproj", "{0EE0A9BD-D280-4B05-9163-14B8524976F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Braspag.Autofixture.Xunit2.Akka", "Braspag.Autofixture.Xunit2.Akka\Braspag.Autofixture.Xunit2.Akka.csproj", "{82B3B12A-4B80-4047-A5F8-E6393314D836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0EE0A9BD-D280-4B05-9163-14B8524976F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EE0A9BD-D280-4B05-9163-14B8524976F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EE0A9BD-D280-4B05-9163-14B8524976F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EE0A9BD-D280-4B05-9163-14B8524976F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B3B12A-4B80-4047-A5F8-E6393314D836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B3B12A-4B80-4047-A5F8-E6393314D836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B3B12A-4B80-4047-A5F8-E6393314D836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B3B12A-4B80-4047-A5F8-E6393314D836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
