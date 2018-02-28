@@ -15,6 +15,7 @@
     <Company>Braspag</Company>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <PackageLicenseUrl>https://raw.githubusercontent.com/BraspagDevelopers/fluent-query-builder/master/LICENSE</PackageLicenseUrl>
+    <Version>1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
